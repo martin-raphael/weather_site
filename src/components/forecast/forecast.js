@@ -79,6 +79,10 @@ const Forecast = ({ data }) => {
                   <label>Feels like</label>
                   <label>{Math.round(item.main.feels_like)}°C</label>
                 </div>
+                      <div className="daily-details-grid-item">
+                  <label>Feels Alike</label>
+                  <label>{Math.round(item.main.feels_like)}°C</label>
+                </div>
               </div>
             </AccordionItemPanel>
           </AccordionItem>
